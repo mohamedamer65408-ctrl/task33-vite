@@ -1,0 +1,25 @@
+.header-home{
+    background-image: url(../media/download.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    
+}
+@media(max-width:767px){
+    .header-home{
+        background-position: right;
+    }
+}
+.header-home .header-content{
+    position: absolute;
+    left: 20%;
+    top:130px;
+
+}
+.touch-home{
+    background-image: url(../media/Path\ 62.png),url(../media/i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+    background-position: center;
+}
+.footer-home{
+    border-radius: 200px 200px 0 0;
+}
